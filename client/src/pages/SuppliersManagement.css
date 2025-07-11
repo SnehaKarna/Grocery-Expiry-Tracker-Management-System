@@ -1,0 +1,116 @@
+.suppliers-management {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.supplier-form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.supplier-form input,
+.supplier-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #28a745;
+}
+
+.form-buttons button[type="button"] {
+  background-color: #dc3545;
+}
+
+.form-buttons button:hover {
+  opacity: 0.85;
+}
+
+.error-msg {
+  width: 100%;
+  color: #e74c3c;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.suppliers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.suppliers-table th, .suppliers-table td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.suppliers-table th {
+  background-color: #f4f4f4;
+  font-weight: 700;
+}
+
+.suppliers-table td:last-child {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+}
+
+.edit-btn, .delete-btn {
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  margin: 0;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}

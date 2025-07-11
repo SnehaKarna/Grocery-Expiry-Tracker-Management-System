@@ -1,0 +1,144 @@
+.user-products-management {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-products-management h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.user-products-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.user-products-form select,
+.user-products-form input[type="number"],
+.user-products-form input[type="date"] {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.user-products-form button {
+  padding: 9px 18px;
+  font-size: 16px;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-products-form button:hover {
+  background-color: #1c5980;
+}
+
+.user-products-form button[type="button"] {
+  background-color: #7f8c8d;
+}
+
+.user-products-form button[type="button"]:hover {
+  background-color: #606c70;
+}
+
+.user-products-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.user-products-table th,
+.user-products-table td {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.user-products-table th {
+  background-color: #2980b9;
+  color: white;
+}
+
+.user-products-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-products-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-products-table button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-products-table button:first-child {
+  background-color: #27ae60;
+  color: white;
+}
+
+.user-products-table button:first-child:hover {
+  background-color: #1e8449;
+}
+
+.user-products-table button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.user-products-table button:last-child:hover {
+  background-color: #c0392b;
+}
+
+.user-products-table td:last-child {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+}
+
+.edit-btn, .delete-btn {
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  margin: 0;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+
